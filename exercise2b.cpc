@@ -1,0 +1,4 @@
+DECLARE Country:STRING
+OUTPUT"What Is Her Country"
+INPUT Country
+OUTPUT "Her Country Name", Country
