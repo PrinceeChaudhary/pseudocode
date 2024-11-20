@@ -1,0 +1,10 @@
+DECLARE Ticketprice:REAL
+DECLARE Age:INTEGER
+OUTPUT"Enter your age"
+INPUT Age
+IF Age>=18 THEN
+   Ticketprice<-12
+ELSE
+   Ticketprice<-8
+ENDIF
+OUTPUT"Ticketprice:",

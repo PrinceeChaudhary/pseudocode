@@ -1,0 +1,17 @@
+DECLARE Password1:STRING
+DECLARE Password2:STRING
+ REPEAT
+   OUTPUT"Enter your new password:"
+   INPUT Password1
+   OUTPUT"Please reenter your password or press enter to skip:"
+   INPUT Password2
+IF Password2=""THEN
+   OUTPUT"Your password id not changed."
+   ELSE
+     IF Password1=Password2 THEN
+        OUTPUT"Your password has been changed."
+   ELSE
+       OUTPUT"The two passwords are different.Please try again."
+    ENDIF
+    
+    

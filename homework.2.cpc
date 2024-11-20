@@ -1,0 +1,29 @@
+DECLARE CorrectPin : INTEGER
+DECLARE UserPin : INTEGER
+DECLARE Attemptsleft : INTEGER
+DECLARE UserBalance : STRING
+DECLARE AccountBalance : REAL
+ CorrectPin <- "5566"
+ UserBalance <- "435"
+Attemptsleft <- "3"
+REPEAT
+  OUTPUT "Enter the pin"
+  INPUT UserPin
+ AttemptLeft <- AttemptLeft - 1
+ IF UserPIN = CorrectPin THEN
+  OUTPUT "Enter the amount"
+  INPUT UserBalance
+  IF UserBalance <= AccountBalance THEN
+   OUTPUT "Please take your money"
+ELSE
+   OUTPUT "Not enough money"
+   ENDI
+
+
+ 
+ 
+  OUTPUT "Please take the money,rest of the balance is =" ,UserBalance
+ELSE
+   OUTPUT "You reach the attempts"
+ENDIF
+   
